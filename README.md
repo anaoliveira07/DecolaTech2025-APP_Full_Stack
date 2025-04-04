@@ -1,0 +1,1 @@
+# DecolaTech2025-APP_Full_Stack
