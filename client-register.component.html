@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>Cadastro de Cliente</h2>
+  <form (ngSubmit)="registerClient()">
+    <div>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" [(ngModel)]="client.name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" [(ngModel)]="client.email" name="email" required>
+    </div>
+    <div>
+      <label for="phone">Telefone:</label>
+      <input type="text" id="phone" [(ngModel)]="client.phone" name="phone" required>
+    </div>
+    <button type="submit">Cadastrar</button>
+  </form>
+</div>
